@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pywebview
+Version: 2.1
+Summary: A cross-platform lightweight native wrapper around a web view component
+Home-page: http://github.com/r0x0r/pywebview
+Author: Roman Sirokov
+Author-email: roman@flowrl.com
+License: New BSD license
+Download-URL: https://github.com/r0x0r/pywebview/archive/2.1.tar.gz
+Keywords: gui,webkit,html,web
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+Provides-Extra: qt5
+Provides-Extra: cocoa
+Provides-Extra: cocoa
+Requires-Dist: pyobjc; extra == 'cocoa'
+Provides-Extra: qt5
+Requires-Dist: PyQt5; extra == 'qt5'
+
+UNKNOWN
+
+

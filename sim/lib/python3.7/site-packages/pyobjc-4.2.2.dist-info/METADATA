@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: pyobjc
+Version: 4.2.2
+Summary: Python<->ObjC Interoperability Module
+Home-page: https://bitbucket.org/ronaldoussoren/pyobjc
+Author: Ronald Oussoren
+Author-email: pyobjc-dev@lists.sourceforge.net
+License: MIT License
+Keywords: Objective-C,bridge,Cocoa
+Platform: macOS
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X :: Cocoa
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Objective C
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+Description-Content-Type: text/x-rst; charset=UTF-8
+Project-URL: Documentation, https://pyobjc.readthedocs.io/en/latest/
+Project-URL: Issue tracker, https://bitbucket.org/ronaldoussoren/pyobjc/issues?status=new&status=open
+Requires-Dist: pyobjc-core (==4.2.2)
+Requires-Dist: pyobjc-framework-AddressBook (==4.2.2)
+Requires-Dist: pyobjc-framework-AppleScriptKit (==4.2.2)
+Requires-Dist: pyobjc-framework-ApplicationServices (==4.2.2)
+Requires-Dist: pyobjc-framework-Automator (==4.2.2)
+Requires-Dist: pyobjc-framework-CFNetwork (==4.2.2)
+Requires-Dist: pyobjc-framework-Cocoa (==4.2.2)
+Requires-Dist: pyobjc-framework-CoreData (==4.2.2)
+Requires-Dist: pyobjc-framework-CoreServices (==4.2.2)
+Requires-Dist: pyobjc-framework-CoreText (==4.2.2)
+Requires-Dist: pyobjc-framework-DiskArbitration (==4.2.2)
+Requires-Dist: pyobjc-framework-ExceptionHandling (==4.2.2)
+Requires-Dist: pyobjc-framework-InstallerPlugins (==4.2.2)
+Requires-Dist: pyobjc-framework-LatentSemanticMapping (==4.2.2)
+Requires-Dist: pyobjc-framework-LaunchServices (==4.2.2)
+Requires-Dist: pyobjc-framework-PreferencePanes (==4.2.2)
+Requires-Dist: pyobjc-framework-Quartz (==4.2.2)
+Requires-Dist: pyobjc-framework-ScreenSaver (==4.2.2)
+Requires-Dist: pyobjc-framework-Security (==4.2.2)
+Requires-Dist: pyobjc-framework-SecurityFoundation (==4.2.2)
+Requires-Dist: pyobjc-framework-SecurityInterface (==4.2.2)
+Requires-Dist: pyobjc-framework-SearchKit (==4.2.2)
+Requires-Dist: pyobjc-framework-SyncServices (==4.2.2)
+Requires-Dist: pyobjc-framework-SystemConfiguration (==4.2.2)
+Requires-Dist: pyobjc-framework-WebKit (==4.2.2)
+Requires-Dist: pyobjc-framework-XgridFoundation (==4.2.2); platform_release < "12.0"
+Requires-Dist: pyobjc-framework-Message (==4.2.2); platform_release < "13.0"
+Requires-Dist: pyobjc-framework-AppleScriptObjC (==4.2.2); platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-CoreLocation (==4.2.2); platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-CoreWLAN (==4.2.2); platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-ImageCaptureCore (==4.2.2); platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-IOSurface (==4.2.2); platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-NetFS (==4.2.2); platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-OpenDirectory (==4.2.2); platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-ServiceManagement (==4.2.2); platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-iTunesLibrary (==4.2.2); platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-ServerNotification (==4.2.2); platform_release >= "10.0" and platform_release < "13.0"
+Requires-Dist: pyobjc-framework-AVFoundation (==4.2.2); platform_release >= "11.0"
+Requires-Dist: pyobjc-framework-IMServicePlugIn (==4.2.2); platform_release >= "11.0"
+Requires-Dist: pyobjc-framework-StoreKit (==4.2.2); platform_release >= "11.0"
+Requires-Dist: pyobjc-framework-SceneKit (==4.2.2); platform_release >= "11.0"
+Requires-Dist: pyobjc-framework-libdispatch (==4.2.2); platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-Accounts (==4.2.2); platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-EventKit (==4.2.2); platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-GameCenter (==4.2.2); platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-Social (==4.2.2); platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-GameKit (==4.2.2); platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-AVKit (==4.2.2); platform_release >= "13.0"
+Requires-Dist: pyobjc-framework-GameController (==4.2.2); platform_release >= "13.0"
+Requires-Dist: pyobjc-framework-MapKit (==4.2.2); platform_release >= "13.0"
+Requires-Dist: pyobjc-framework-MediaAccessibility (==4.2.2); platform_release >= "13.0"
+Requires-Dist: pyobjc-framework-MediaLibrary (==4.2.2); platform_release >= "13.0"
+Requires-Dist: pyobjc-framework-SpriteKit (==4.2.2); platform_release >= "13.0"
+Requires-Dist: pyobjc-framework-CloudKit (==4.2.2); platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-CoreBluetooth (==4.2.2); platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-CryptoTokenKit (==4.2.2); platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-FinderSync (==4.2.2); platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-LocalAuthentication (==4.2.2); platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-MultipeerConnectivity (==4.2.2); platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-NotificationCenter (==4.2.2); platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-Contacts (==4.2.2); platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-ContactsUI (==4.2.2); platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-ModelIO (==4.2.2); platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-NetworkExtension (==4.2.2); platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-Photos (==4.2.2); platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-PhotosUI (==4.2.2); platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-SafariServices (==4.2.2); platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-GameplayKit (==4.2.2); platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-Intents (==4.2.2); platform_release >= "16.0"
+Requires-Dist: pyobjc-framework-MediaPlayer (==4.2.2); platform_release >= "16.0"
+Requires-Dist: pyobjc-framework-BusinessChat (==4.2.2); platform_release >= "17.0"
+Requires-Dist: pyobjc-framework-ColorSync (==4.2.2); platform_release >= "17.0"
+Requires-Dist: pyobjc-framework-CoreML (==4.2.2); platform_release >= "17.0"
+Requires-Dist: pyobjc-framework-CoreSpotlight (==4.2.2); platform_release >= "17.0"
+Requires-Dist: pyobjc-framework-ExternalAccessory (==4.2.2); platform_release >= "17.0"
+Requires-Dist: pyobjc-framework-Vision (==4.2.2); platform_release >= "17.0"
+Requires-Dist: pyobjc-framework-CalendarStore (==4.2.2); platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-Collaboration (==4.2.2); platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-DictionaryServices (==4.2.2); platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-FSEvents (==4.2.2); platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-InputMethodKit (==4.2.2); platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-InstantMessage (==4.2.2); platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-PubSub (==4.2.2); platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-QTKit (==4.2.2); platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-ScriptingBridge (==4.2.2); platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-InterfaceBuilderKit (==4.2.2); platform_release >= "9.0" and platform_release < "11.0"
+
+
+PyObjC is a bridge between Python and Objective-C.  It allows full
+featured Cocoa applications to be written in pure Python.  It is also
+easy to use other frameworks containing Objective-C class libraries
+from Python and to mix in Objective-C, C and C++ source.
+
+This package is a pseudo-package that will install all pyobjc related
+packages (that is, pyobjc-core as well as wrappers for frameworks on
+macOS)
+
+Project links
+-------------
+
+* `Documentation <https://pyobjc.readthedocs.io/en/latest/>`_
+* `Issue Tracker <https://bitbucket.org/ronaldoussoren/pyobjc/issues?status=new&status=open>`_
+* `Repository <https://bitbucket.org/ronaldoussoren/pyobjc/>`_
+
+
