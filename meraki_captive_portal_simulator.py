@@ -1,7 +1,7 @@
 """
 Cisco Meraki Captive Portal simulator
 
-Default port: 5002
+Default port: 5003
 
 Matt DeNapoli
 
@@ -59,8 +59,7 @@ def connect_to_wifi():
 
 @app.route("/splash/grant", methods=["GET"])
 def continue_to_url():
-    global user_continue_url
-    return redirect(user_continue_url, code=302)
+    return redirect(request.args.get("continue_url"), code=302)
 
 def generate_fake_mac():
     fake_mac = ""
